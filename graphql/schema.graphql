@@ -1,0 +1,31 @@
+"A date string with format `Y-m-d`, e.g. `2011-05-23`."
+scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
+
+"A datetime string with format `Y-m-d H:i:s`, e.g. `2018-05-23 13:43:32`."
+scalar DateTime @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\DateTime")
+
+type Query {
+    invoices: [Invoice!]! @paginate(defaultCount: 10)
+    invoice(id: ID @eq): Invoice @find
+    prescriptions: [Prescription!]! @paginate(defaultCount: 10)
+    prescription(id: ID @eq): Prescription @find
+}
+
+type Invoice {
+    invoice_id: ID!
+    invoice_date: Date!
+    invoice_amount: Float!
+    prescriptions: [Prescription!]! @hasMany
+}
+
+type Prescription {
+    prescription_id: ID!
+    medication: String!
+    amount: Float!
+    dosage: Int!
+    unit_price: Int!
+    prescription_datails: String!
+    medical_record_id: ID!
+    invoice_invoice_id: ID!
+    invoice: Invoice! @belongsTo
+}

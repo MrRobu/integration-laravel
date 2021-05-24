@@ -1,0 +1,180 @@
+[{
+"breed_species":
+	[
+	 {
+	   "species_id": 1,
+	   "species_name": "canine",
+	   "species_description": "dogs",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 1,
+				   "breed_name": "Bichon"
+				},
+				{
+				   "breed_id": 8,
+					"breed_name": "Pitbull"
+				},
+				{
+				   "breed_id": 15,
+				   "breed_name": "Chiuaua"
+				},
+				{
+				   "breed_id": 22,
+				   "breed_name": "Poodle"
+				}
+			]
+	   }
+	 },
+	 {
+	   "species_id": 2,
+	   "species_name": "feline",
+	   "species_description": "cats",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 2,
+				   "breed_name": "Russian Blue"
+				},
+				{
+				   "breed_id": 9,
+					"breed_name": "Persian"
+				},
+				{
+				   "breed_id": 16,
+				   "breed_name": "Siamese"
+				},
+				{
+				   "breed_id": 23,
+				   "breed_name": "Scottish Fold"
+				}
+			]
+	   }
+	 },
+	 {
+	   "species_id": 3,
+	   "species_name": "bird",
+	   "species_description": "parrots, etc",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 3,
+				   "breed_name": "Gray Parrot"
+				},
+				{
+				   "breed_id": 10,
+					"breed_name": "Cockatoo"
+				},
+				{
+				   "breed_id": 17,
+				   "breed_name": "Phoicephalus"
+				},
+				{
+				   "breed_id": 24,
+				   "breed_name": "Cockatiel"
+				}
+			]
+	   }
+	 },
+	{
+	   "species_id": 4,
+	   "species_name": "fish",
+	   "species_description": "fish",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 4,
+				   "breed_name": "Goldfish"
+				},
+				{
+				   "breed_id": 11,
+					"breed_name": "Fantail"
+				},
+				{
+				   "breed_id": 18,
+				   "breed_name": "Clown fish"
+				},
+				{
+				   "breed_id": 25,
+				   "breed_name": "Molilies"
+				}
+			]
+	   }
+	 },
+	{
+	   "species_id": 5,
+	   "species_name": "rodent",
+	   "species_description": "hamsters, guinea pigs, rabbits, etc",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 5,
+				   "breed_name": "Squirrel"
+				},
+				{
+				   "breed_id": 12,
+					"breed_name": "Rabbit"
+				},
+				{
+				   "breed_id": 19,
+				   "breed_name": "Gerbil"
+				},
+				{
+				   "breed_id": 26,
+				   "breed_name": "Guinea Pig"
+				}
+			]
+	   }
+	 },
+	{
+	   "species_id": 6,
+	   "species_name": "reptile",
+	   "species_description": "iguanas, etc",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 6,
+				   "breed_name": "Gila Monster"
+				},
+				{
+				   "breed_id": 13,
+					"breed_name": "Black tree monitor"
+				},
+				{
+				   "breed_id": 20,
+				   "breed_name": "Green iguana"
+				},
+				{
+				   "breed_id": 27,
+				   "breed_name": "Gecko"
+				}
+			]
+	   }
+	 },
+	{
+	   "species_id": 7,
+	   "species_name": "arachnides",
+	   "species_description": "spiders",
+	   "breeds": {
+			"breed": [
+				{
+				   "breed_id": 7,
+				   "breed_name": "Wasp Spider"
+				},
+				{
+				   "breed_id": 14,
+					"breed_name": "Crab Spider"
+				},
+				{
+				   "breed_id": 21,
+				   "breed_name": "Tarantula"
+				},
+				{
+				   "breed_id": 28,
+				   "breed_name": "Jewelled Spider"
+				}
+			]
+	   }
+	 }
+	]
+}]

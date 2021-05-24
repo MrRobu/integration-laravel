@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  oracle:
+    image: store/oracle/database-enterprise:12.2.0.1
+    volumes:
+      - .:/home/oracle/workspace
+      - oracle:/opt/oracle/oradata
+    working_dir: /home/oracle/workspace
+    ports:
+      - "1521:1521"
+
+  postgres:
+    image: postgres:10
+    environment:
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - .:/workspace
+      - postgres:/var/lib/postgresql/data
+    working_dir: /workspace
+    ports:
+      - "5432:5432"
+    user: postgres
+
+volumes:
+  postgres:
+  oracle:
